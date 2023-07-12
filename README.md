@@ -4,7 +4,7 @@
 The following two lines of code (one line is just a comment) in <b>platformio.ini</b> will make the big change:
 
 <code>
-; upload via esp-prog JTAG
+;upload via esp-prog JTAG
 upload_protocol = esp-prog
 upload_port = /dev/cu.usbserial-3400
 </code><br>
@@ -13,10 +13,16 @@ You find a sample here in the Test3 folder along with the classic blink Arduino 
 
 # Connection of the ESP-WROOM-32 module
 
-TDI - IO12 - P4L (4th port from botton on the "L" left side)<br>
-TMS - IO14 - P5L<br>
-TCK - IO13 - P3L<br>
-TDO - IO15 - P3R<br>
+<table>
+  <tr><b>JTAG Connections</b></tr>
+  <tr><th>ESP-Prog</th><th>ESP-WROOM-32</th><th>Location</th></tr>
+  <tr><td>TDI</td><td>IO12</td><td>P4L (4th port from botton on the "L" left side)</td></tr>
+  <tr><td>TMS</td><td>IO14</td><td>P5L</td></tr>
+  <tr><td>TCK</td><td>IO13</td><td>P3L</td></tr>
+  <tr><td>TDO</td><td>IO15</td><td>P3R</td></tr>
+  <tr><td>VJTAG</td><td>VIN</td><td>P1L</td></tr>
+  <tr><td>GMD</td><td>GND</td><td>P2L</td></tr>
+</table>
 
 # Kudos
 
