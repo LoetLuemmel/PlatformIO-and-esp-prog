@@ -13,6 +13,9 @@ You find a sample here in the Test3 folder along with the classic blink Arduino 
 
 # Connection of the ESP-WROOM-32 module
 
+<p>Power and Ground connections are obvious, but pay attention on the voltage setting of the ESP-PROG board.
+I decided to power the ESP-VROOM-32 board with 5 volts on VIN. The voltage regulator will be active and also 5V sensors could be used with voltage dividers to protect ESP input gates.</p>
+
 <table>
   <tr><b>JTAG Connections</b></tr>
   <tr><th>ESP-Prog</th><th>ESP-WROOM-32</th><th>Location</th></tr>
