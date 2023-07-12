@@ -10,6 +10,7 @@ TDO - IO15 - P3R<br>
 
 # Kudos
 
-Thanks to the following sources with helpful information about PlatformIO and debugging:
-https://dialedin.com.au/blog/esp32-jtag-debugging-esp-prog
-https://www.haraldkreuzer.net/en/news/esp32-jtag-debugging-platformio-and-only-one-usb-connection
+Thanks to the following sources with helpful information about PlatformIO and debugging:<br>
+<br>
+https://dialedin.com.au/blog/esp32-jtag-debugging-esp-prog<br>
+https://www.haraldkreuzer.net/en/news/esp32-jtag-debugging-platformio-and-only-one-usb-connection<br>
