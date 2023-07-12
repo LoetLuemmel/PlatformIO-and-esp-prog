@@ -1,6 +1,6 @@
 /*
  * Blink
- * Turns on an LED on for one second,
+ * Turns on an LED for one second (1000 ms),
  * then off for one second, repeatedly.
  */
 
