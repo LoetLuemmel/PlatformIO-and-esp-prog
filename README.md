@@ -1,5 +1,15 @@
 # PlatformIO-and-esp-prog
-```Apple Mac Setup``` for ESP32 development on PlatformIO and using an ESP Debug Board with ESP-WROOM-32
+```Apple Mac Setup``` for ESP32 development on PlatformIO and using an ESP Debug Board with ESP-WROOM-32<br>
+<br>
+The following two lines of code (one line is just a comment) in <b>platformio.ini</b> will make the big change:
+
+<code>
+; upload via esp-prog JTAG
+upload_protocol = esp-prog
+upload_port = /dev/cu.usbserial-3400
+</code><br>
+<br>
+You find a sample here in the Test3 folder along with the classic blink Arduino asample.<br>
 
 # Connection of the ESP-WROOM-32 module
 
