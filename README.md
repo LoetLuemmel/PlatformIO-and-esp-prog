@@ -13,15 +13,15 @@ You find a sample here in the Test3 folder along with the classic blink Arduino 
 
 # Q&A
 
-Q: Do I need to switch away from the Arduino IDE and learn the Espressiv IDF?
-A: Nope, you continue programming the used way like with the Arduino IDE. You will make use of the PIO (PlatformIO) integrated development environment and you can still use for instance the Sketch samples.
-
-Q: I do not want to follow the simplified Arduino programming paradighm, but programming classic C/C++ style instead.
-A: The choice is up to you! I was surprised the *.INO sketches are still possible to use, by simply adding the '#include arduino.h' statement in the header.
-
-Q: How long does it take for a average programmer to switch from the Arduino IDE to PIO?
-A: I'd say a day. The only 'complicated' thing for me was to find a way looking at the Serial Monitor. But even that device path I could simply copy and being guided by the PIO plugin.
-
+Q: Do I need to switch away from the Arduino IDE and learn the Espressiv IDF?<br>
+A: Nope, you continue programming the used way like with the Arduino IDE. You will make use of the PIO (PlatformIO) integrated development environment and you can still use for instance the Sketch samples.<br>
+<br>
+Q: I do not want to follow the simplified Arduino programming paradighm, but programming classic C/C++ style instead.<br>
+A: The choice is up to you! I was surprised the *.INO sketches are still possible to use, by simply adding the '#include arduino.h' statement in the header.<br>
+<br>
+Q: How long does it take for a average programmer to switch from the Arduino IDE to PIO?<br>
+A: I'd say a day. The only 'complicated' thing for me was to find a way looking at the Serial Monitor. But even that device path I could simply copy and being guided by the PIO plugin.<br>
+<br>
 
 # Connection of the ESP-WROOM-32 module
 
