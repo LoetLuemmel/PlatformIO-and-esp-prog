@@ -19,8 +19,8 @@ A: Nope, you continue programming the used way like with the Arduino IDE. You wi
 Q: I do not want to follow the simplified Arduino programming paradighm, but programming classic C/C++ style instead.<br>
 A: The choice is up to you! I was surprised the *.INO sketches are still possible to use, by simply adding the '#include arduino.h' statement in the header.<br>
 <br>
-Q: How long does it take for a average programmer to switch from the Arduino IDE to PIO?<br>
-A: I'd say a day. The only 'complicated' thing for me was to find a way looking at the Serial Monitor. But even that device path I could simply copy and being guided by the PIO plugin.<br>
+Q: How long does it take for an average programmer to switch from the Arduino IDE to PIO?<br>
+A: I'd say a day. - The only 'complicated' thing for me, was to find a way looking at the Serial Monitor. But even that unix device path I could simply copy and being guided by the PIO plugin. For Windows users it is just a matter of naming the relevant Com-Port mentioned by the Windows Device Manager.<br>
 <br>
 
 # Connection of the ESP-WROOM-32 module
