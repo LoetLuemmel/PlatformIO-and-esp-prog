@@ -22,6 +22,10 @@ A: The choice is up to you! I was surprised the *.INO sketches are still possibl
 Q: How long does it take for an average programmer to switch from the Arduino IDE to PIO?<br>
 A: I'd say a day. - The only 'complicated' thing for me, was to find a way looking at the Serial Monitor. But even that unix device path I could simply copy and being guided by the PIO plugin. For Windows users it is just a matter of naming the relevant Com-Port mentioned by the Windows Device Manager.<br>
 <br>
+Q: How many cables do I need to connect the ESP Debugging Board and the ESP32 target?<br>
+A: One cable only for programming and debugging.<br>
+If you want to look a the serial minitor (appreciated), a 2nd USB cable from your cross compile machine to the ESP32 board will be required.<br>
+<br>
 
 # Connection of the ESP-WROOM-32 module
 
