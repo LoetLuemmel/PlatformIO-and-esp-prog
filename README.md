@@ -24,7 +24,7 @@ A: I'd say a day. - The only 'complicated' thing for me, was to find a way looki
 <br>
 Q: How many cables do I need to connect the ESP Debugging Board and the ESP32 target?<br>
 A: One cable only for programming and debugging.<br>
-If you want to look a the serial monitor (appreciated), a 2nd USB cable from your cross compile machine to the ESP32 board will be required.<br>
+If you want to look at the serial monitor (appreciated), a 2nd USB cable from your cross compile machine to the ESP32 board will be required.<br>
 <br>
 
 # Connection of the ESP-WROOM-32 module
